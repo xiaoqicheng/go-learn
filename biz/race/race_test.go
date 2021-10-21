@@ -14,3 +14,7 @@ func TestRace(t *testing.T)  {
 func TestRaceStruct(t *testing.T)  {
 	race.RaceStruct()
 }
+
+//问题
+// 1. 目前Mutex的state字段有几个意义，这几个意义分别是由那些字段表示的
+// 2. 等待一个Mutex 的 goroutine数最大是多少？能否满足现实的需求
